@@ -60,3 +60,9 @@ body{
     margin-top: 32rem; 
     margin-left: 40rem;
 }
+
+@media screen and (min-width: 100%) {
+    body{
+      background-size: 50%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
