@@ -1,7 +1,9 @@
 .googlelogo{
         height: 24p;
         width: 74px;
-        margin-bottom: -1.2rem;
+        margin-top: 0.7rem;
+    
+    
 }
 
 .plus{
@@ -14,30 +16,26 @@
 .classroom{
     color: #5f6368;
     font-family: 'Product Sans',Arial,Helvetica,sans-serif;
-    font-size: 1.4rem;
-
+    font-size: 1.5rem;
+    text-indent: 100rem;
 }
 
-.icon{
-    padding: 10px;
-    height: 20px;
-    width: 20px;
+.menu{
+    padding: 5px;
+    height: 24px;
+    width: 24px;
 }
 
 .header{
     display: flex;
-    padding: 10px;
-    background-color: rgb(252, 251, 250);
-    
-}
+    align-items: center;
+    padding: 5px;
+    background: white;
+    border-bottom: .0625rem solid #e0e0e0;
+   }
 
-.innerheader{
-    display: inline;
-}
 
-div{
-    display: inline-block;
-}
+
 .placementtext{
     font-family: Arial,sans-serif;
     color: #3c4043;
