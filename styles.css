@@ -6,8 +6,7 @@
     justify-content: center;
     padding: 5px;
     background: white;
-    border-bottom: .0625rem solid #e0e0e0;
-   }
+    border-bottom: .0625rem solid #e0e0e0;}
 
 
 .logo{
@@ -18,20 +17,25 @@
     height: 100px;
     width: 100px;
 }
+.title{
+    font-size:25px;
+    font-weight: bold;
 
+}
 
 ul {
-    list-style-type: none;
+  
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(15, 15, 15);
   }
   li a {
-    display: block;
+    display: inline ;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px;
+    margin-top: 16px;
     text-decoration: none;
   }
   
@@ -47,16 +51,18 @@ ul {
       width: 300px
   }
   
+  .signin .signup{
+      float: right;
+  }
  
   
   #nevbar{
       display: inline;
-      padding-left: 30px
+      font-size: 20px;
 
 
   }
-
-  .footer {
+.footer {
  
     width: 100%;
     height: 100%;
