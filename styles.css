@@ -1,66 +1,90 @@
-.googlelogo{
-        height: 24p;
-        width: 74px;
-        margin-top: 0.7rem;
-    
-    
-}
 
-.plus{
-    height: 24px;
-    width: 24px;
-    margin-left: 60rem;
-}
-
-
-.classroom{
-    color: #5f6368;
-    font-family: 'Product Sans',Arial,Helvetica,sans-serif;
-    font-size: 1.5rem;
-    text-indent: 100rem;
-}
-
-.menu{
-    padding: 5px;
-    height: 24px;
-    width: 24px;
-}
 
 .header{
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 5px;
     background: white;
     border-bottom: .0625rem solid #e0e0e0;
    }
 
 
-
-.placementtext{
-    font-family: Arial,sans-serif;
-    color: #3c4043;
+.logo{
+    max-width: 100%;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100px;
+    width: 100px;
 }
 
-.placementlink{
-    font-family: Arial,sans-serif;
-    color: blue;
-    margin-left: 4rem;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(15, 15, 15);
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-}
-body{
-    background-image: url("./images/background.png");
-    background-repeat: no-repeat;
-    background-size:25%;  
-    height: 23.75rem;
-    background-position-x: center;
-    background-position-y: 10rem;
-     
-}
-.placement{
-    margin-top: 32rem; 
-    margin-left: 40rem;
-}
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(73, 70, 70);
+  }
+  li {
+    display: inline;
+  }
+ 
+  img {
+      height: 300px;
+      width: 300px
+  }
+  
+ 
+  
+  #nevbar{
+      display: inline;
+      padding-left: 30px
 
+
+  }
+
+  .footer {
+ 
+    width: 100%;
+    height: 100%;
+ background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+ }
+
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 50%;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
 @media screen and (min-width: 100%) {
     body{
       background-size: 50%; /* The width is 100%, when the viewport is 800px or smaller */
