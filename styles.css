@@ -1,5 +1,9 @@
 
-
+.contain{
+  padding-left: 30px;
+  padding-right: 30px;
+    
+}
 .header{
     display: flex;
     align-items: center;
@@ -21,6 +25,11 @@
     font-size:25px;
     font-weight: bold;
 
+}
+.bg1{
+  background: red;
+  align-items:center;
+justify-content: center;
 }
 
 ul {
@@ -44,14 +53,23 @@ ul {
   }
   li {
     display: inline;
+    
+  }
+  .content{
+    
+    display:grid;
+    align-items:center;
+    justify-content: center;
+
   }
  
   img {
       height: 300px;
-      width: 300px
+      width: 300px;
+
   }
   
-  .signin .signup{
+  #signup{
       float: right;
   }
  
